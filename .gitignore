@@ -1,0 +1,7 @@
+.idea
+.vscode
+.DS_STORE
+__pycache__
+.venv
+.env
+my_account.session
