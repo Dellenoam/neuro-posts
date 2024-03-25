@@ -28,7 +28,7 @@ class TopicGenerator:
 
     async def _write_topic_to_previous_topics(self, topic: str) -> None:
         async with aiofiles.open("previous_topics.txt", "a") as file:
-            await file.writelines(topic)
+            await file.write(topic + "\n")
 
 
 class PostGenerator:
