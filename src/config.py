@@ -29,7 +29,7 @@ class GeminiSettings(BaseModel):
 class Settings(BaseSettings):
     model_config = SettingsConfigDict(env_file=".env", env_nested_delimiter="__")
 
-    debug_mode: str
+    debug_mode: bool
     telethon: TelethonSettings
     gemini: GeminiSettings
 
