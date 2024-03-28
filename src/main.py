@@ -19,6 +19,7 @@ async def main():
         "my_account",
         api_id=settings.telethon.api_id,
         api_hash=settings.telethon.api_hash,
+        system_version=settings.telethon.system_version,
     )
 
     while True:

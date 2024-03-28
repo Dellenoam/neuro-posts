@@ -10,6 +10,8 @@ class TelethonSettings(BaseModel):
     channel_id: int
     test_channel_id: int
 
+    system_version: str = "4.16.30-vx3364"
+
 
 class GeminiSettings(BaseModel):
     generation_config: GenerationConfig = GenerationConfig(
