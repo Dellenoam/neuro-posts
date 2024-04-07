@@ -14,6 +14,9 @@ class TopicGenerator:
         if len(previous_topics) > 10:
             del previous_topics[0]
 
+            async with aiofiles.open("previous_topics.txt", "w") as file:
+                await file.writelines(previous_topics)
+
         async with aiofiles.open("prompts/generate_topic.txt", "r") as file:
             generate_topic_prompt = await file.read()
             generate_topic_prompt = generate_topic_prompt.replace(
