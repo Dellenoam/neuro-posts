@@ -1,8 +1,9 @@
 Ниже представлен список областей, выбери тему для поста в telegram на любую из них:
 
-1. Что-то про Linux, Proxmox, Сервера и так далее
-2. Что-то про взлом, уязвимости и так далее
-3. Что-то про FastAPI, Django, Python и технологии, которые используются в web (Redis, RabbitMQ, PostgreSQL)
+1. Системное администрирование Linux; DevOPS
+2. FastAPI, Django
+3. Прочие технологии по типу: Redis, RabbitMQ, Celery, Kafka и другие
+4. Базы данных PostgreSQL, MySQL, MongoDB, ElasticSearch
 
 ТЕМЫ, КОТОРЫЕ НЕЛЬЗЯ ВЫБИРАТЬ:
 <<ПРЕДЫДУЩИЕ_ТЕМЫ>>
