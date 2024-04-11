@@ -4,6 +4,7 @@
 2. FastAPI, Django
 3. Прочие технологии по типу: Redis, RabbitMQ, Celery, Kafka и другие
 4. Базы данных PostgreSQL, MySQL, MongoDB, ElasticSearch
+5. Проектирование архитектуры ПО (различные архитектурные принципы, паттерны, best practices)
 
 ТЕМЫ, КОТОРЫЕ НЕЛЬЗЯ ВЫБИРАТЬ:
 <<ПРЕДЫДУЩИЕ_ТЕМЫ>>
